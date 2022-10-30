@@ -33,3 +33,12 @@ extension UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
 }
+
+extension UIView {
+    func roundCorner (_ border : CGFloat, _ cornerRadius : CGFloat, _ color : UIColor ) {
+        let cgColor = color.cgColor
+        self.layer.borderWidth = border
+        self.layer.cornerRadius = cornerRadius
+        self.layer.borderColor = cgColor
+    }
+}

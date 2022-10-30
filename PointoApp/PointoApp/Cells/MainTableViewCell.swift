@@ -21,9 +21,7 @@ class MainTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
         self.selectionStyle = .none
-        backView.layer.borderWidth = 1
-        backView.layer.cornerRadius = 8
-        backView.layer.borderColor = UIColor.gray.cgColor
+        backView.roundCorner(1,8,.lightGray)
     }
     
     func loadData (data : ResultObjects) {

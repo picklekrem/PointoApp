@@ -10,6 +10,7 @@ import UIKit
 class MainViewModel: NSObject {
     private var resultObjects : [ResultObjects] = []
     var didDataFetched : (Bool) -> () = {isFetched in }
+    var cellClicked : () -> () = {}
     func fetchData () {
         WebService.shared.getHomePageData { response in
             switch response {
@@ -46,7 +47,7 @@ extension MainViewModel : UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
+        cellClicked()
     }
     
     

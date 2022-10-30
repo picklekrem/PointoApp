@@ -19,6 +19,7 @@
 		EA69044C290D5A2F0000BF2F /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA69044B290D5A2F0000BF2F /* WebService.swift */; };
 		EA69044F290D5BB80000BF2F /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA69044E290D5BB80000BF2F /* MainModel.swift */; };
 		EA690454290D639B0000BF2F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA690453290D639B0000BF2F /* Extensions.swift */; };
+		EAB21E86290ED26500FE7FC9 /* NewSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB21E85290ED26500FE7FC9 /* NewSubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		EA69044B290D5A2F0000BF2F /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		EA69044E290D5BB80000BF2F /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
 		EA690453290D639B0000BF2F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EAB21E85290ED26500FE7FC9 /* NewSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				EA690431290D44660000BF2F /* MainViewController.swift */,
+				EAB21E85290ED26500FE7FC9 /* NewSubViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				EA69042E290D44660000BF2F /* AppDelegate.swift in Sources */,
 				EA690454290D639B0000BF2F /* Extensions.swift in Sources */,
 				EA69044F290D5BB80000BF2F /* MainModel.swift in Sources */,
+				EAB21E86290ED26500FE7FC9 /* NewSubViewController.swift in Sources */,
 				EA690430290D44660000BF2F /* SceneDelegate.swift in Sources */,
 				EA690442290D4F210000BF2F /* MainViewModel.swift in Sources */,
 				EA690445290D50470000BF2F /* MainTableViewCell.swift in Sources */,

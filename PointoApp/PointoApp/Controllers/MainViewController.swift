@@ -15,6 +15,9 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureUI()
+    }
+    func configureUI () {
         showSpinner()
         viewModel.configureTable(table: subsTableView)
         viewModel.fetchData()
@@ -31,7 +34,9 @@ class MainViewController: UIViewController {
                 }
             }
         }
+        viewModel.cellClicked = {
+            self.performSegue(withIdentifier: "showNewSubSegue", sender: nil)
+        }
     }
-
 }
 
