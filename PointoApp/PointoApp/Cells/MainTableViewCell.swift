@@ -32,19 +32,15 @@ class MainTableViewCell: UITableViewCell {
     func image(for value: Int) -> UIImage {
         switch value {
         case 1:
-//            return UIImage(named: "plane.png")!
-            return UIImage(systemName: "person.crop.circle")!
+            return UIImage(named: "subs_icon.png")!
         case 2:
-//            return UIImage(named: "arrow.png")!
-            return UIImage(systemName: "mic.badge.plus")!
+            return UIImage(named: "doc_icon.png")!
         case 4:
-//            return UIImage(named: "logo.png")!
-            return UIImage(systemName: "mic.slash.circle")!
+            return UIImage(named: "tahliye_icon.png")!
         case 5 :
-            return UIImage(systemName: "mic.fill.badge.plus")!
-//            return UIImage(named: "logo.png")!
+            return UIImage(named: "rating_icon.png")!
         default:
-            return UIImage(systemName: "square.and.arrow.up.trianglebadge.exclamationmark")!
+            return UIImage(systemName: "person.crop.circle")!
         }
     }
 

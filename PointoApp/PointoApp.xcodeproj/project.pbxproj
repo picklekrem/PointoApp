@@ -20,6 +20,8 @@
 		EA69044F290D5BB80000BF2F /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA69044E290D5BB80000BF2F /* MainModel.swift */; };
 		EA690454290D639B0000BF2F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA690453290D639B0000BF2F /* Extensions.swift */; };
 		EAB21E86290ED26500FE7FC9 /* NewSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB21E85290ED26500FE7FC9 /* NewSubViewController.swift */; };
+		EAB21E88290FC6E600FE7FC9 /* CustomDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB21E87290FC6E600FE7FC9 /* CustomDropDown.swift */; };
+		EAB21E8A290FC70100FE7FC9 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB21E89290FC70100FE7FC9 /* DropDown.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		EA69044E290D5BB80000BF2F /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
 		EA690453290D639B0000BF2F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EAB21E85290ED26500FE7FC9 /* NewSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSubViewController.swift; sourceTree = "<group>"; };
+		EAB21E87290FC6E600FE7FC9 /* CustomDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDropDown.swift; sourceTree = "<group>"; };
+		EAB21E89290FC70100FE7FC9 /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				EA690453290D639B0000BF2F /* Extensions.swift */,
+				EAB21E87290FC6E600FE7FC9 /* CustomDropDown.swift */,
+				EAB21E89290FC70100FE7FC9 /* DropDown.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -211,11 +217,13 @@
 				EA69044C290D5A2F0000BF2F /* WebService.swift in Sources */,
 				EA690432290D44660000BF2F /* MainViewController.swift in Sources */,
 				EA69042E290D44660000BF2F /* AppDelegate.swift in Sources */,
+				EAB21E88290FC6E600FE7FC9 /* CustomDropDown.swift in Sources */,
 				EA690454290D639B0000BF2F /* Extensions.swift in Sources */,
 				EA69044F290D5BB80000BF2F /* MainModel.swift in Sources */,
 				EAB21E86290ED26500FE7FC9 /* NewSubViewController.swift in Sources */,
 				EA690430290D44660000BF2F /* SceneDelegate.swift in Sources */,
 				EA690442290D4F210000BF2F /* MainViewModel.swift in Sources */,
+				EAB21E8A290FC70100FE7FC9 /* DropDown.swift in Sources */,
 				EA690445290D50470000BF2F /* MainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
